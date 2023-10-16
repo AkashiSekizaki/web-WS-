@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 800px) {
+    main {
+        margin-top: 80px;
+        padding: 0 30px 30px 30px;
+    }
+    #intro {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #F8ECFC;
+        margin: 120px auto 30px auto;
+        width: 100%;
+        height: 620px;
+        border-radius: 20px;
+    }
+    #intro img {
+        width: 450px;
+        height: 450px;
+        border-radius: 50%;
+    }
+    #intro ul {
+        list-style: none;
+        font-size: 50px;
+        line-height: 80px;
+    }
+    /* 自分でCSSのプロパティ・値を埋めよう！ */
+    #hobby {
+        /*背景色を#F8ECFCにする*/
+        /* 幅を100%にする */
+        /* paddingを上を40px,下を5pxにする */
+        /* marginを上下左右中央寄せにする */
+        /* 角を20px丸くする */
+    }
+    #hobby h2 {
+        /* フォントサイズを20px */
+        /* テキストに下線を引く */
+        /* marginを左右50pxにする */
+    }
+    #hobbys-area {
+        /* marginを上下20px, 左右中央寄せ */
+        /* 表示を横並び（ヒント display: ??） */
+        /* フレックス（flex）アイテムを複数行に分割する（ヒント flex-wrap: ??） */
+        /* フレックスコンテナーの主軸方向で配置コンテナーの中央に向けて互いに寄せて配置（ヒント justify-content: ??） */
+    }
+    .hobby-contents {
+        /* 高さを380pxにする */
+        /* marginを25pxにする */
+    }
+    .hobby-contents img {
+        /* 高さを380pxにする */
+        /* marginを420pxにする */
+    }
+    .hobby-contents h3 {
+        /* テキストを中央寄せ */
+        /* 下部に2pxの黒の点線ボーダー */
+        /* marginを上下250px, 左右中央寄せ */
+        /* フォントサイズを30px */
+    }
+    .hobby-contents-dammy {
+        /* 幅を380pxに設定 */
+        /* 高さを0に設定 */
+        /* marginを上下左右に25px */
+    }
+}
+
+@media screen and (max-width: 799px) {
+    main {
+        margin-top: 80px;
+        padding: 0 20px 20px 20px;
+    }
+    #intro {
+        background-color: #F8ECFC;
+        margin: 100px auto 20px auto;
+        padding-top: 20px;
+        width: 100%;
+        height: 550px;
+        border-radius: 20px;
+    }
+    #intro img {
+        width: 300px;
+        height: 300px;
+        display: block;
+        margin: 20px auto;
+        border-radius: 50%;
+    }
+    #intro ul {
+        width: fit-content;
+        margin: auto;
+        list-style: none;
+        font-size: 30px;
+        line-height: 60px;
+    }
+    #hobby {
+        background-color: #F8ECFC;
+        width: 100%;
+        padding: 40px 0 5px 0;
+        margin: auto;
+        border-radius: 20px;
+    }
+    #hobby h2 {
+        font-size: 30px;
+        text-decoration: underline;
+        margin: 0 20px;
+    }
+    #hobbys-area {}
+    .hobby-contents {
+        width: 300px;
+        margin: 25px auto;
+    }
+    .hobby-contents img {
+        width: 300px;
+        height: 300px;
+        display: block;
+        margin: auto;
+    }
+    .hobby-contents h3 {
+        text-align: center;
+        border-bottom: 2px dotted black;
+        width: 250px;
+        margin: 10px auto;
+        font-size: 30px;
+    }
+    .hobby-contents-dammy {
+        width: 380px;
+        height: 0;
+        margin: 25px auto;
+    }
+}
